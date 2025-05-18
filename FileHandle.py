@@ -1,3 +1,10 @@
+# delete file
+# import os
+# os.remove("FileText1.html")
+
+# delete folder
+# os.rmdir("lalalalal")
+
 FILE = open("FileText.text", "r")
 print(FILE.read())
 
