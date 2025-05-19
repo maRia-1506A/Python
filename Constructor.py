@@ -1,6 +1,11 @@
 class parentInfo:
-    def myFamily(self, name, age):  # method
-        print(f"My name is {name} and my age is {age}")
+    # constructor (init ase mane constructor)
+    def __init__(self, name, number):
+        print(f"My name is {name} and my number is {number}")
 
 
-p1 = parentInfo  # object
+# method
+'''def myFamily(self, name, age):
+        print(f"My name is {name} and my age is {age}")'''
+
+p1 = parentInfo("Maria", "01608233419")  # object
