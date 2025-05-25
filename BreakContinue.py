@@ -1,7 +1,7 @@
 Maria = ['a', 's', 'd', 'f', 'g', 'h']
 for x in range(len(Maria)):
     if (x == 3):  # index
-        break
+        break  # skip the loop
     print(x)
 print('')
 
@@ -9,5 +9,5 @@ print('')
 Maria = ['a', 's', 'd', 'f', 'g', 'h']
 for x in range(len(Maria)):
     if (x == 3):  # index
-        continue
+        continue  # skip the iteration
     print(x)

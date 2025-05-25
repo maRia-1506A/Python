@@ -53,10 +53,16 @@ print('')
 set5 = {"a", "b", "c"}
 set6 = {1, 2, 3}
 print(set5.union(set6))  # can add multiple set
+print(set5.intersection(set6))
 
 set6.update(set5)  # update method
 print(set6)
 
 # join multiple sets
 myset = set4 | set5 | set6
-print("Myset:",myset)
+print("Myset:", myset, "\n")
+
+
+# empty set
+e = ()
+print("Empty set: ", e)

@@ -118,4 +118,9 @@ j1 = n1 + l1
 print("J1:", j1)
 
 n1.extend(j1)
-print("Merge with j1:", n1)
+print("Merge with j1:", n1,"\n")
+
+
+# sum 
+s= [1,2,3,4]
+print(sum(s))

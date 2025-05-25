@@ -1,6 +1,6 @@
 '''
 {key : value}
-Ordered, Changeable & Not allow duplicates
+Ordered, Changeable(mutable) & Not allow duplicates
 '''
 
 Info1 = {
@@ -92,10 +92,10 @@ Info3 = {
     "sum2": 20,
     "sum3": 30,
 }
-c1 = Info3.copy() #copy method
+c1 = Info3.copy()  # copy method
 print(c1)
 print(c1 == Info3)
 
-c2 = dict(Info3) #dict method
+c2 = dict(Info3)  # dict method
 print(c2)
 print(c2 == Info3)
