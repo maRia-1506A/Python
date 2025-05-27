@@ -1,8 +1,10 @@
 # recursion limit 1000 times
 
-def ReFunc():
-    i = 1
-    while i < 5:
-        print("maria")
-        i += 1
-ReFunc()
+def factorial(n):
+    if (n == 1 or n == 0):
+        return 1
+    return n * factorial(n-1)
+
+
+n = int(input("Enter a number: "))
+print(f"The factorial of {n} is: {factorial(n)}")
