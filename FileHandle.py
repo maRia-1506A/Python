@@ -8,6 +8,8 @@
 FILE = open("FileText.txt", "r")
 # print(FILE.read()) we can print the lines
 
+
+# Read all lines from the file at once and returns a list of strings.
 f = FILE.readlines()
 print(f, type(f))
 FILE.close()

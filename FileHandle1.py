@@ -11,7 +11,7 @@ file = open("FileText1.txt")
 # line5 = file.readline()
 # print(line5 == "")
 
-line = file.readline()
+line = file.readline()  # Reads only one line from a file at a time.
 while (line != ""):
     print(line)
     line = file.readline()
