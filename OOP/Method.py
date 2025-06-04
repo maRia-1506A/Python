@@ -8,7 +8,7 @@ class allMethod:
     def classMethod(cls):
         print("This is class Method")
 
-    # static method
+    # static method (if we dont use self parameter/obj than its static)
     @staticmethod
     def staticMethod():
         print("This is Static Method")
