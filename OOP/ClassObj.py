@@ -1,5 +1,5 @@
 class NewClass1():  # class
-    name = ''  # property / class attribute
+    name = ''  # class attribute
     number = ''
     id = ''
     section = ''
