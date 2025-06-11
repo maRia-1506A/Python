@@ -28,7 +28,7 @@
 # b = baba()
 
 
-# multilevel
+# multilevel inheritance
 class baba:
     car = 'BMW'
     home = '10 floor'
