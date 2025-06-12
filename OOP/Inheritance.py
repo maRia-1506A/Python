@@ -1,4 +1,9 @@
 # multiple inheritance
+'''
+    parent1 parent2 parent3
+           \   |  /
+             Child
+'''
 # class baba:
 #     car = 'BMW'
 #     home = '10 floor'
@@ -22,13 +27,22 @@
 #     brokenhm = ''
 
 
-# k = son3()
-# print(k.car)
-# print(k.webcam)
+# s3 = son3()
+# print(s3.car)
+# print(s3.webcam)
 # b = baba()
 
 
 # multilevel inheritance
+'''
+        parent
+           |
+        child1
+           |
+        child2
+'''
+
+
 class baba:
     car = 'BMW'
     home = '10 floor'
@@ -52,7 +66,7 @@ class son3(son2):
     brokenhm = ''
 
 
-k = son3()
-print(k.car)
-print(k.webcam)
+s3 = son3()
+print(s3.car)
+print(s3.webcam)
 b = baba()
