@@ -5,5 +5,7 @@
 
 # LemdaFunc(10, 20)
 
-x = lambda a,b : a+b #anonymous functions
-print(x(10,20))
+def x(a, b): return a+b  # anonymous functions
+
+
+print(x(10, 20))
