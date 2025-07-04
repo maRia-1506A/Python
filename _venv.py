@@ -1,6 +1,8 @@
-# pip intsall virtualenv (packege)
-# virtualenv env (isolated environment: env)
-# .\env\Scripts\activate.ps1 (environment activation)
+# 1) pip intsall virtualenv (packege)
+# 2) virtualenv env (setup isolated environment: env)
+# 3) .\env\Scripts\activate.ps1 (environment activation)
+# 4) pip freeze > requirements.txt (after install packeges, returns all the package installed in a file)
+# 5) pip install –r requirements.txt (install same packages from one env to another)
 # type "deactivate" (environment deactivation)
 
 '''‘pip freeze’ 
