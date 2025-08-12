@@ -65,17 +65,6 @@ while x < len(loopList):
     x = x+1
 print("")
 
-
-# list comprehension
-list1 = [1, 2, 3, 4, 5]
-result = [k*k for k in list1]
-print(result)
-
-result2 = [l+10 for l in list1]
-print(result2)
-print('')
-
-
 # sort list
 Number = [1, 4, 7, 8, 6, 5, 9, 8]
 Number.sort()
@@ -95,17 +84,17 @@ print("")
 
 # copy list
 num1 = [1, 2, 3, 5, 6, 7]
-num2 = num1.copy() #copy method
+num2 = num1.copy()  # copy method
 print("Number2:", num2)
 print("Number1:", num1)
 print(num1 == num2)
 
-thislist = ["apple", "banana", "cherry"] #list method
-mylist= list(thislist)
+thislist = ["apple", "banana", "cherry"]  # list method
+mylist = list(thislist)
 print(mylist)
 
-thislist = ["apple", "banana", "cherry"] #slice operator
-mylist= thislist[:]
+thislist = ["apple", "banana", "cherry"]  # slice operator
+mylist = thislist[:]
 print(mylist)
 
 print('')
@@ -118,9 +107,9 @@ j1 = n1 + l1
 print("J1:", j1)
 
 n1.extend(j1)
-print("Merge with j1:", n1,"\n")
+print("Merge with j1:", n1, "\n")
 
 
-# sum 
-s= [1,2,3,4]
+# sum
+s = [1, 2, 3, 4]
 print(sum(s))

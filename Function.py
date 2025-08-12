@@ -20,19 +20,18 @@ Plus("User", "Thanks")  # function call
 
 
 # return value
-def Plus1(name, ending):
-    print("\nGood morning, "+name)
-    print(ending)
-    return 7
+def Plus1(num1, num2):
+    return num1 + num2
 
 
-a = Plus1("Python", "Hey")
-print(a)  # return value varialbe er mddhe ase
+num1 = int(input("\nEnter 1st number: "))
+num2 = int(input("Enter 2nd number: "))
+print(Plus1(num1, num2))
 
 
 #  default arguments
 def day(opening, ending="Thank you"):
-    print(f"Good day,{opening}")
+    print(f"\nGood day,{opening}")
     print(ending)
 
 
