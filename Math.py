@@ -9,3 +9,9 @@ print(c)
 
 d = pow(2, 3)  # 2*2*2
 print(d)
+
+# Here is the change 
+x = 323
+y = 33
+z = x*y
+print(z)
